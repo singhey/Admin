@@ -1,0 +1,36 @@
+html, body{
+    margin:0;
+    padding:0;
+    font-family:roboto;
+    background-color:#EEEEEE;
+}
+h1{
+    text-align:center;
+    font-weight:200;
+    text-transform:uppercase;
+    font-size:40px;
+}
+a{
+    text-decoration:none;
+    display:block;
+    width:40%;
+    margin:auto;
+    padding:20px 30px;
+    text-align:center;
+    background-color:#fff;
+    margin:10px auto;
+    border-radius:5px;
+    color:#777;
+    text-transform:uppercase;
+    box-shadow:0px 0px 2px #ccc;
+    transition:all .3s ease;
+}
+._holder{
+    width:50%;
+    float:left;
+}
+a:hover{
+    color:#000;
+    transform:scale(1.1);
+    box-shadow:0px 0px 5px #666;
+}
